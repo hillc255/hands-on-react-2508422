@@ -17,9 +17,9 @@ function App() {
   });
 
   return (
-    <>
-    <Nav cast={cast} onChoice={(info) => {setMemberInfo(info)}}/>
-    <div className="container">
+   <>
+     <Nav cast={cast} onChoice={(info) => {setMemberInfo(info)}}/>
+     <div className="container">
       <hgroup>
         <img src="images/group.svg" alt="StarGazers Group" />
         <h1>Meet the Stargazers</h1>
@@ -27,8 +27,8 @@ function App() {
         <ListCast cast={cast} onChoice={(info) => { setMemberInfo(info) }} />
         {memberInfo && <Modals member={memberInfo} handleChange={(info) => {setMemberInfo(cast[info])}} handleClose={() => { setMemberInfo(null)}} />}
       </hgroup>
-    </div>
-    </>
+     </div>
+   </>
   )
 }
 export default App
