@@ -23,10 +23,9 @@ export default ({ member, handleClose, handleChange}) => {
                 <a className="outline" href="#" role="button"
                  onClick={()=>{handleChange(Number(member.id)- 1)}}
                 >previous</a>
-                                <a className="outline" href="#" role="button"
+                <a className="outline" href="#" role="button"
                  onClick={()=>{handleChange(Number(member.id)+ 1)}}
                 >next</a>
-                
               </hgroup>
             </hgroup>
           </div>
