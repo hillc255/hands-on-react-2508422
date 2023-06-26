@@ -32,3 +32,6 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [lil-course-url]: https://www.linkedin.com/learning/hands-on-introduction-react
 [gcs-video-url]: https://www.linkedin.com/learning/hands-on-introduction-react/using-github-codespaces-with-this-course
+
+![stargazers](https://github.com/hillc255/hands-on-react-linkedIn-learning/assets/29286482/23894a61-833d-4fd1-b1c4-c20f5a60545a)
+
